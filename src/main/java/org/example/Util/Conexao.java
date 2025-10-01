@@ -20,7 +20,7 @@ public class Conexao {
             Connection conn = conectar();
 
             if (conn != null) {
-                System.out.println("Conexão bem sucessida");
+                System.out.println("Conexão bem sussedida");
             } else {
                 System.out.println("Conexão falhou");
             }
