@@ -13,6 +13,13 @@ public class Material {
         this.estoque = estoque;
     }
 
+    public Material(int id, String nome, String unidade, double estoque){
+        this.id = id;
+        this.nome = nome;
+        this.unidade = unidade;
+        this.estoque = estoque;
+    }
+
     public int getId() {
         return id;
     }
